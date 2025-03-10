@@ -32,6 +32,8 @@
 .icons {
     transition-duration: 300ms;
     cursor: pointer;
+    display: block;
+    text-align: center;
     
 }
 
@@ -46,6 +48,25 @@
     color: unset;
 
 }
+.subHeadingText {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;  
+    background-color: transparent; 
+    padding: 5px 10px;
+    display: block;
+    text-align: center;
+    transition-duration: 300ms;
+    cursor: pointer;
+    margin-top: 10px; 
+  }
+ 
+.subHeadingText:hover {
+    color: aquamarine;
+    transform: scale(1.1);
+    text-shadow: 0.03em 0.03em 0 white;
+}
+
 @media (min-width: 640px) {
     .header {
         flex-direction: column;
@@ -63,5 +84,13 @@
         flex-direction: row;
         font-size: 5.5rem;
         gap: 50px;
+    }
+    .subHeadingText {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+    .added {
+        font-size: 18px;
+        padding: 8px 12px;
     }
 }
