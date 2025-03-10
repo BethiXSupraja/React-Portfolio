@@ -1,7 +1,6 @@
 import React from 'react'
 import SectionIntroduction from './SectionIntroduction'
 import styles from './projects.module.css'
-import portfolio from '../assets/portfolio.png'
 import ImgOverlay from './ImgOverlay'
 import pokedex from '../assets/pokedex.png'
 
