@@ -4,6 +4,7 @@ import styles from './projects.module.css'
 import ImgOverlay from './ImgOverlay'
 import pokedex from '../assets/pokedex.png'
 import taskmate from '../assets/taskmate.png'
+import caffiend from '../assets/caffiend.png'
 
 export default function Projects() {
   return (
@@ -26,6 +27,14 @@ export default function Projects() {
               githubLink={'https://github.com/BethiXSupraja/ReactProjects/tree/main/todo-app'}>
               A simple task manager using React.js for adding, editing, and deleting tasks. It helped me learn state management and component structure.
               </ImgOverlay>
+              <ImgOverlay
+              imgSrc = {caffiend}
+              title={"CaffiendApp"}
+              projectLink={'https://caffiend-app-c78dfb6.netlify.app/'}
+              githubLink={'https://github.com/BethiXSupraja/ReactProjects/tree/main/caffiend'}>
+              A coffee tracking app w. React.JS FantaCSS & Firebase
+              </ImgOverlay>
+
 
               
             </div>
